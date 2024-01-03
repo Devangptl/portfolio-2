@@ -12,11 +12,26 @@ const Experience = () => {
           Where I’ve Worked
         </h1>
 
-        <div className="flex gap-5 py-3 text-white  px-4">
-            <Link className="hover:underline-offset-8 hover:underline hover:ease-in hover:duration-700" to={"/intership"}> Intership </Link>
-            <Link to={"/intership"}> Intership </Link>
-            <Link to={"/intership"}> Intership </Link>
-            <Link to={"/intership"}> Intership </Link>
+        <div className=" text-[20px] px-14 flex flex-col gap-5 pt-3 text-white ">
+
+           <div className=""  >
+            <h1 className=" underline underline-offset-8 mb-3 font-semibold text-[#abd373] text-[18px]">Intership - 1</h1>
+            <p className="  text-[#8892b0]">Grras Solutions Private Limited | Ahmedabad</p>
+            <p className="  ff">FRONTEND DEVELOPMENT</p>
+           </div>
+
+           <div className=""  >
+            <h1 className=" underline underline-offset-8 mb-3 font-semibold text-[#abd373] text-[18px]">Intership - 1</h1>
+            <p className="  text-[#8892b0]">Grras Solutions Private Limited | Ahmedabad</p>
+            <p className="  ff">FRONTEND DEVELOPMENT</p>
+           </div>
+
+           <div className=""  >
+            <h1 className=" underline underline-offset-8 mb-3 font-semibold text-[#abd373] text-[18px]">Intership - 1</h1>
+            <p className="  text-[#8892b0]">Grras Solutions Private Limited | Ahmedabad</p>
+            <p className="  ff">FRONTEND DEVELOPMENT</p>
+           </div>
+
         </div>
 
       </div>

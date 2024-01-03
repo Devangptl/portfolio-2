@@ -5,6 +5,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import { Route , Routes } from "react-router-dom";
 import Intership from "./components/Intership";
+import Work from "./components/Work";
 
 
 function App() {
@@ -15,10 +16,7 @@ function App() {
       <Header/>
       <About/>
       <Experience/>
-      {/* <Routes>
-        <Route path="/intership" element={<Intership/>}/>
-        <Route path="/experience" element={<Experience/>}/>
-      </Routes> */}
+      <Work/>
     </>
   );
 }
