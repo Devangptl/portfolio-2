@@ -10,6 +10,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -200,4 +204,21 @@ code {
 
 .imgCard:hover .img {
   transform: translateZ(50px);
+}
+
+
+
+.line::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: #ccd6f6;
+}
+
+.emailLine{
+ 
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
 }

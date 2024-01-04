@@ -1,5 +1,5 @@
 import React from "react";
-import work1 from "../work-1.png";
+import work1 from "../utils/work-1.png";
 import { Link } from "react-router-dom";
 import { FiGithub } from "react-icons/fi";
 import { LuExternalLink } from "react-icons/lu";
@@ -20,7 +20,7 @@ const Work = () => {
         <div className=" mt-[7%]  relative   grid grid-cols-3 ">
           <div className=" w-[95%]  col-span-2 ">
             <img
-              className=" cursor-pointer rounded-md opacity-55 hover:opacity-100 duration-300   "
+              className=" cursor-pointer blur-[0.9px] hover:-translate-x-10  hover:blur-none rounded-md duration-500  "
               src={work1}
               alt=""
             />
@@ -50,7 +50,7 @@ const Work = () => {
             </div>
 
             <div className=" text-[#ccd6f6] text-[24px] flex gap-7 justify-end">
-              <Link className="hover:text-[#5ff2d0]" to="https://www.google.co.in/">
+              <Link className="hover:text-[#5ff2d0]" to="https://github.com/Devangptl">
                 <FiGithub />
               </Link>
               <Link className="hover:text-[#5ff2d0]" to="https://www.google.co.in/">
@@ -69,7 +69,7 @@ const Work = () => {
         <div className="   mt-[15%]  relative   grid grid-cols-3 ">
           <div className=" w-[95%] ml-[54%]  col-span-2 ">
             <img
-              className=" cursor-pointer rounded-md opacity-55 hover:opacity-100 duration-300   "
+              className=" cursor-pointer blur-[0.9px] hover:translate-x-10  hover:blur-none rounded-md duration-500    "
               src={work1}
               alt=""
             />
@@ -99,7 +99,7 @@ const Work = () => {
             </div>
 
             <div className=" text-[#ccd6f6] text-[24px] flex gap-7 justify-start">
-              <Link className="hover:text-[#5ff2d0]" to="https://www.google.co.in/">
+              <Link className="hover:text-[#5ff2d0]" to="https://github.com/Devangptl">
                 <FiGithub />
               </Link>
               <Link className="hover:text-[#5ff2d0]" to="https://www.google.co.in/">
@@ -117,7 +117,7 @@ const Work = () => {
                   <div className=" mt-[15%]  relative   grid grid-cols-3 ">
           <div className=" w-[95%]  col-span-2 ">
             <img
-              className=" cursor-pointer rounded-md opacity-55 hover:opacity-100 duration-300   "
+              className=" cursor-pointer blur-[0.9px] hover:-translate-x-10  hover:blur-none rounded-md duration-500   "
               src={work1}
               alt=""
             />
@@ -147,7 +147,7 @@ const Work = () => {
             </div>
 
             <div className=" text-[#ccd6f6] text-[24px] flex gap-7 justify-end">
-              <Link className="hover:text-[#5ff2d0]" to="https://www.google.co.in/">
+              <Link className="hover:text-[#5ff2d0]" to="https://github.com/Devangptl">
                 <FiGithub />
               </Link>
               <Link className="hover:text-[#5ff2d0]" to="https://www.google.co.in/">

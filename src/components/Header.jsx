@@ -2,8 +2,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className=' h-screen px-[15%]  py-[5%] bg-[#0a192f] ' >
-      <div className=' '>
+    <div  className=' h-screen px-[15%]  py-[5%] bg-[#0a192f] ' >
+      <div className=' pt-20 '>
         <h1 className=' text-[#5ff2d0] ff text-[20px]' >Hi, my name is</h1>
 
         <h1 className=' mt-2 text-[#ccd6f6] text-[50px] font-black '>Devang Patel.</h1>

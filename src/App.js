@@ -7,13 +7,15 @@ import Work from "./components/Work";
 import OtherWork from "./components/OtherWork";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Social from "./components/Social";
 
 
 function App() {
   return (
-    <div className=" ">
+    <div  className=" ">
       <NavBar/>
-
+      
+      <Social/>
       <Header/>
       <About/>
       <Experience/>
@@ -21,6 +23,8 @@ function App() {
       <OtherWork/>
       <Contact/>
       <Footer/>
+
+     
     </div>
   );
 }
