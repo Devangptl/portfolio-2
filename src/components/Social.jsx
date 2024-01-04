@@ -11,9 +11,9 @@ const Social = () => {
 
 
         <div className=' line flex flex-col  gap-6  text-[#ccd6f6]'>
-            <Link to={"https://www.linkedin.com/in/devangmakani/"} className=' hover:text-[#5ff2d0] duration-200'><SlSocialLinkedin /></Link>
-            <Link to={"https://github.com/Devangptl"} className=' hover:text-[#5ff2d0] duration-200'><FiGithub /></Link>
-            <Link to={"https://www.instagram.com/devang_.03/"} className=' hover:text-[#5ff2d0] duration-200'><FiInstagram /></Link>
+            <Link target='_blank' to={"https://www.linkedin.com/in/devangmakani/"} className=' hover:text-[#5ff2d0] duration-200'><SlSocialLinkedin /></Link>
+            <Link target='_blank' to={"https://github.com/Devangptl"} className=' hover:text-[#5ff2d0] duration-200'><FiGithub /></Link>
+            <Link target='_blank' to={"https://www.instagram.com/devang_.03/"} className=' hover:text-[#5ff2d0] duration-200'><FiInstagram /></Link>
           
         </div>
 
