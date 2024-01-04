@@ -3,7 +3,7 @@ import img from "../img.png";
 
 const About = () => {
   return (
-    <div id="about" className=" h-screen px-[20%]   bg-[#0a192f] ">
+    <div id="about" className=" flex flex-col justify-center h-screen px-[20%]   bg-[#0a192f] ">
       <div className=" ">
         <h1 className=" text-[25px] text-[#ccd6f6] font-bold">
           

@@ -2,9 +2,9 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div id="experience" className=" px-[28%] h-screen bg-[#0a192f]">
+    <div id="experience" className=" flex flex-col justify-center px-[28%] h-screen bg-[#0a192f]">
 
-      <div className=" ">
+      <div className="  ">
         <h1 className=" text-[25px] text-[#ccd6f6] font-bold">
           <span className="ff font-thin text-[#5ff2d0]">02. </span>
           Where I’ve Worked

@@ -6,7 +6,7 @@ import { LuExternalLink } from "react-icons/lu";
 
 const Work = () => {
   return (
-    <div id="work" className="  px-[18%] pb-[100px] bg-[#0a192f]">
+    <div id="work" className=" pt-4 flex flex-col justify-center  px-[18%] bg-[#0a192f]">
       <div>
         <div className=" ">
           <h1 className="  text-[25px] text-[#ccd6f6] font-bold">
@@ -50,10 +50,10 @@ const Work = () => {
             </div>
 
             <div className=" text-[#ccd6f6] text-[24px] flex gap-7 justify-end">
-              <Link to="https://www.google.co.in/">
+              <Link className="hover:text-[#5ff2d0]" to="https://www.google.co.in/">
                 <FiGithub />
               </Link>
-              <Link to="https://www.google.co.in/">
+              <Link className="hover:text-[#5ff2d0]" to="https://www.google.co.in/">
                 <LuExternalLink />
               </Link>
             </div>
@@ -83,7 +83,7 @@ const Work = () => {
             </div>
 
             <div className="  shadow-2xl shadow-[#191919] rounded-md bg-[#112240]">
-              <p className="pr-5 pl-12 py-4 text-[#8d99b7] text-start ">
+              <p className="pl-5 pr-12 py-4 text-[#8d99b7] text-start ">
                 A minimal, dark blue theme for VS Code, Sublime Text, Atom,
                 iTerm, and more. Available on Visual Studio Marketplace, Package
                 Control, Atom Package Manager, and npm.
@@ -99,10 +99,10 @@ const Work = () => {
             </div>
 
             <div className=" text-[#ccd6f6] text-[24px] flex gap-7 justify-start">
-              <Link to="https://www.google.co.in/">
+              <Link className="hover:text-[#5ff2d0]" to="https://www.google.co.in/">
                 <FiGithub />
               </Link>
-              <Link to="https://www.google.co.in/">
+              <Link className="hover:text-[#5ff2d0]" to="https://www.google.co.in/">
                 <LuExternalLink />
               </Link>
             </div>
@@ -147,10 +147,10 @@ const Work = () => {
             </div>
 
             <div className=" text-[#ccd6f6] text-[24px] flex gap-7 justify-end">
-              <Link to="https://www.google.co.in/">
+              <Link className="hover:text-[#5ff2d0]" to="https://www.google.co.in/">
                 <FiGithub />
               </Link>
-              <Link to="https://www.google.co.in/">
+              <Link className="hover:text-[#5ff2d0]" to="https://www.google.co.in/">
                 <LuExternalLink />
               </Link>
             </div>
