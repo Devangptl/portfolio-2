@@ -10,7 +10,7 @@ const Work = () => {
   return (
     <div
       id="work"
-      className=" md:mt-0 mt-[-250px] pt-4 flex flex-col justify-center px-7 md:px-[18%] bg-[#0a192f]"
+      className=" md:mt-0 mt-[-20px] pt-4 flex flex-col justify-center px-7 md:px-[18%] bg-[#0a192f]"
     >
       <div>
         <div className=" ">
@@ -22,7 +22,7 @@ const Work = () => {
 
         {/* first work */}
 
-        <div className=" mt-[7%]  md:relative   md:grid grid-cols-3 ">
+        <div className=" mt-[15%]  md:relative   md:grid grid-cols-3 ">
           <div className=" md:w-[95%]  col-span-2 ">
             <img
               className=" cursor-pointer md:blur-[0.9px] md:hover:-translate-x-10  hover:blur-none rounded-md duration-500  "
@@ -77,7 +77,7 @@ const Work = () => {
 
         {/* second work */}
 
-        <div className="   mt-[15%]  md:relative   md:grid grid-cols-3 ">
+        <div className="  mt-[15%]  md:relative   md:grid grid-cols-3 ">
           <div className=" md:w-[95%] md:ml-[54%]  col-span-2 ">
             <img
               className=" cursor-pointer md:blur-[0.9px] md:hover:translate-x-10  hover:blur-none rounded-md duration-500    "
@@ -130,7 +130,7 @@ const Work = () => {
 
         {/* third work */}
 
-        <div className=" mt-[7%]  md:relative   md:grid grid-cols-3 ">
+        <div className=" mt-[15%]  md:relative   md:grid grid-cols-3 ">
           <div className="md:w-[95%]  col-span-2  ">
             <img
               className=" cursor-pointer md:blur-[0.9px] md:hover:-translate-x-10  hover:blur-none rounded-md duration-500  "
