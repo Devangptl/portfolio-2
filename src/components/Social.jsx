@@ -7,7 +7,7 @@ import { FiInstagram } from "react-icons/fi";
 const Social = () => {
   return (
     <div className=' fixed'>
-        <div className='  w-screen h-screen flex justify-between px-5 text-[24px] items-end '>
+        <div className='  w-screen h-screen flex justify-between px-1 md:px-5 text-[14px] md:text-[24px] items-end '>
 
 
         <div className=' line flex flex-col  gap-6  text-[#ccd6f6]'>
@@ -17,7 +17,7 @@ const Social = () => {
           
         </div>
 
-        <Link to={"mailto:devangmpatel51@gmail.com"} className=' flex gap-4 line emailLine  hover:text-[#5ff2d0] duration-300 ff  text-[18px]   text-white'>
+        <Link to={"mailto:devangmpatel51@gmail.com"} className=' flex gap-4 line emailLine  hover:text-[#5ff2d0] duration-300 ff  text-[14px] md:text-[18px]   text-white'>
             <div>devangmpatel51@gmail.com</div>
         </Link>
         </div>

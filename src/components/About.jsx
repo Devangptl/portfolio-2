@@ -3,17 +3,17 @@ import img from "../utils/img.png";
 
 const About = () => {
   return (
-    <div id="about" className=" flex flex-col justify-center h-screen px-[20%]   bg-[#0a192f] ">
+    <div id="about" className=" mt-[-300px] md:mt-[0px] flex flex-col justify-center h-screen md:px-[20%] px-7   bg-[#0a192f] ">
       <div className=" ">
-        <h1 className=" text-[25px] text-[#ccd6f6] font-bold">
+        <h1 className=" text-[20px] md:text-[25px] text-[#ccd6f6] font-bold">
           
           <span className="ff font-thin text-[#5ff2d0]">01. </span>
            About Me
         </h1>
       </div>
 
-      <div className=" py-6 grid grid-cols-3 gap-4">
-        <div className="col-span-2  text-[#8892b0] flex flex-col gap-3 text-[18px] ">
+      <div className=" py-6 md:grid grid-cols-3 gap-4">
+        <div className="col-span-2  text-[#8892b0] flex flex-col gap-3 text-[15px] md:text-[18px] ">
           <p>
             Hello! My name is Devang and I enjoy creating things that live on
             the internet. My interest in web development started back in 2012
@@ -34,7 +34,7 @@ const About = () => {
           </p>
           <p>Here are a few technologies I’ve been working with recently:</p>
 
-          <div className=" text-[#5ff2d0] text-[15px] ff px-4 py-3 flex  gap-7">
+          <div className=" text-[#5ff2d0] text-[12px] md:text-[15px] ff px-4 py-3 flex  gap-7">
             <ul className=" list-disc">
               <li>
                 <span className="text-[#8892b0]">JavaScript (ES6+)</span>{" "}
