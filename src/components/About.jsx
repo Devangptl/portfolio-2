@@ -6,56 +6,59 @@ const About = () => {
     <div id="about" className=" mt-[-200px] md:mt-[0px] flex flex-col justify-center h-screen md:px-[20%] px-7   bg-[#0a192f] ">
       <div className=" ">
         <h1 className=" text-[20px] md:text-[25px] text-[#ccd6f6] font-bold">
-          
+
           <span className="ff font-thin text-[#5ff2d0]">01. </span>
-           About Me
+          About Me
         </h1>
       </div>
 
       <div className=" py-6 md:grid grid-cols-3 gap-4">
         <div className="col-span-2  text-[#8892b0] flex flex-col gap-3 text-[15px] md:text-[18px] ">
-          <p>
+          <p className=" text-justify">
             Hello! My name is Devang and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2012
-            when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+            the internet. My interest in web development started back in 2023
+            when I decided to try building website — taught me a lot about REACTJS &
+            NODEJS
           </p>
-          <p>
-            Fast-forward to today, and I’ve had the privilege of working at an
-            advertising agency, a start-up, a huge corporation, and a
-            student-led design studio. My main focus these days is building
-            accessible, inclusive products and digital experiences at
-            Upstatement for a variety of clients.
+          <p className=" text-justify">
+            Passionate and skilled web developer with a strong background in building dynamic and responsive web
+            applications using a modern tech stack. Proficient in JavaScript, ReactJS, MongoDB, HTML5, NextJS, CSS,
+            Tailwind CSS, and NodeJS. Adept at rapidly learning new technologies and adapting to diverse
+            team environments to deliver high-quality projects
           </p>
-          <p>
-            I also recently launched a course that covers everything you need to
-            build a web app with the Spotify API using Node & React.
-          </p>
-          <p>Here are a few technologies I’ve been working with recently:</p>
+  
 
           <div className=" text-[#5ff2d0] text-[12px] md:text-[15px] ff px-4 py-3 flex  gap-7">
             <ul className=" list-disc">
               <li>
-                <span className="text-[#8892b0]">JavaScript (ES6+)</span>{" "}
+                <span className="text-[#8892b0]">HTML</span>{" "}
               </li>
               <li>
-                <span className="text-[#8892b0]">TypeScript</span>{" "}
+                <span className="text-[#8892b0]">CSS</span>{" "}
+              </li>
+             
+              <li>
+                <span className="text-[#8892b0]">JavaScript</span>{" "}
               </li>
               <li>
-                <span className="text-[#8892b0]">React</span>{" "}
+                <span className="text-[#8892b0]">Tailwind Css</span>{" "}
               </li>
             </ul>
             <ul className=" list-disc ">
+              
               <li>
-                <span className="text-[#8892b0]">Eleventy</span>{" "}
+                <span className="text-[#8892b0]">ReactJS</span>{" "}
               </li>
               <li>
-                <span className="text-[#8892b0]">Node.js</span>{" "}
+                <span className="text-[#8892b0]">NodeJS</span>{" "}
               </li>
               <li>
-                <span className="text-[#8892b0]">WordPress</span>{" "}
+                <span className="text-[#8892b0]">MongoDB</span>{" "}
               </li>
+              <li>
+                <span className="text-[#8892b0]">Github</span>{" "}
+              </li>
+              
             </ul>
           </div>
         </div>

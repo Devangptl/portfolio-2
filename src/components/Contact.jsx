@@ -15,8 +15,7 @@ const Contact = () => {
 
         <p className=" md:px-[20%] md:text-[16px] text-[13px] text-center text-[#8d99b7] ">
           Although I’m not currently looking for any new opportunities, my inbox
-          is always open. Whether you have a question or just want to say hi,
-          I’ll try my best to get back to you!
+          is always open. Whether you have a question or just want to say message.
         </p>
 
         <Link to={"mailto:devangmpatel51@gmail.com"} className=" ff  font-bold text-[15px] md:text-[18px]  relative hover:text-[#0c4537] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 hover:transition-all hover:duration-500 after:transition-all after:duration-500 after:hover:transition-all after:hover:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#abd373] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-[#95a1be] ">

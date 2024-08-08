@@ -6,7 +6,6 @@ import Experience from "./components/Experience";
 import Work from "./components/Work";
 import OtherWork from "./components/OtherWork";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import Social from "./components/Social";
 
 
@@ -22,7 +21,7 @@ function App() {
       <Work/>
       <OtherWork/>
       <Contact/>
-      <Footer/>
+     
 
      
     </div>
