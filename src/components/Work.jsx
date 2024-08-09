@@ -11,11 +11,11 @@ const Work = () => {
   return (
     <div
       id="work"
-      className=" md:mt-0 mt-[-20px]  pt-4 flex flex-col justify-center px-7 md:px-[18%] bg-[#0a192f]"
+      className="  pt-10 mt-[-5px]   lg:pt-4 flex flex-col  justify-center px-7 md:px-[12%] lg:px-[18%] bg-[#0a192f]"
     >
       <div>
-        <div className=" ">
-          <h1 className=" text-[20px]  md:text-[25px] text-[#ccd6f6] font-bold">
+        <div className="">
+          <h1 className=" text-[20px] md:text-[24px] lg:text-[25px] text-[#ccd6f6] font-bold">
             <span className="ff font-thin text-[#5ff2d0]">03. </span>
             Some Things I’ve Built
           </h1>
@@ -23,41 +23,41 @@ const Work = () => {
 
         {/* first work */}
 
-        <div className=" mt-[15%]  md:relative   md:grid grid-cols-3 ">
-          <div className=" md:w-[95%]  col-span-2 ">
+        <div  className=" mt-[15%] pb-3  lg:relative   lg:grid grid-cols-3 ">
+          <div data-aos="zoom-in" className=" lg:w-[95%]  col-span-2 ">
             <img
-              className=" cursor-pointer md:blur-[0.9px] md:hover:-translate-x-10  hover:blur-none rounded-md duration-500  "
+              className=" cursor-pointer lg:blur-[0.9px] lg:hover:-translate-x-10  hover:blur-none rounded-md duration-500  "
               src={work1}
               alt="work1"
             />
           </div>
-          <div className=" md:absolute md:ml-[47%] gap-7 flex flex-col">
-            <div className="md:text-end md:mt-2 mt-3 ">
-              <p className="ff text-[13px] md:text-[16px] text-[#5ff2d0]">
+          <div data-aos="fade-up" className=" lg:absolute lg:ml-[47%] gap-7 flex flex-col">
+            <div className="mt-3 lg:text-end lg:mt-2 ">
+              <p className="ff text-[13px] md:text-[15px] lg:text-[16px] text-[#5ff2d0]">
                 {/* Featured Project */}
                 Latest Project
               </p>
-              <h1 className=" text-[#ccd6f6] text-[20px] md:text-[24px] font-bold">
+              <h1 className=" text-[#ccd6f6]  text-[20px] md:text-[24px] lg:text-[24px] font-bold">
                 Royalty Park
               </h1>
             </div>
 
-            <div className=" md:mt-0 mt-[-20px]  shadow-2xl shadow-[#191919] rounded-md bg-[#112240]">
-              <p className="md:pr-5 pr-2 pl-0 md:pl-12 py-2 md:py-4 md:text-[16px] text-[13px] text-[#8d99b7] md:text-end ">
+            <div className="  lg:mt-0 mt-[-20px]  shadow-2xl shadow-[#191919] rounded-md bg-[#112240]">
+              <p className=" font lg:pr-5 pr-2 pl-2 lg:pl-12 py-2 lg:py-4 md:text-[14px] lg:text-[14px] text-[12px] text-[#8d99b7] lg:text-end ">
                 A minimal, dark theme for VS Code, ReactJs , Pixabay Api , and
                 more. Available on Visual Studio npm. Adding the search
                 functionality.
               </p>
             </div>
 
-            <div className=" md:text-[16px] text-[13px] md:mt-0 mt-[-20px] text-[#8d99b7] ff md:justify-end  flex flex-row gap-5">
+            <div className=" font lg:text-[14px] md:text-[14px] text-[12px] lg:mt-0 mt-[-20px] text-[#8d99b7]  lg:justify-end  flex flex-row gap-5">
               <p>VScode</p>
               <p>React.js</p>
               <p>Api</p>
               <p>Tailwind</p>
             </div>
 
-            <div className=" md:mt-0 mt-[-20px] text-[#ccd6f6] text-[20px] md:text-[24px] flex gap-7 md:justify-end">
+            <div className=" lg:mt-[-5px] mt-[-20px] text-[#ccd6f6] text-[17px] md:text-[19px] lg:text-[20px] flex gap-7 lg:justify-end">
               <Link
                 target="_blank"
                 className="hover:text-[#5ff2d0]"
@@ -78,24 +78,24 @@ const Work = () => {
 
         {/* second work */}
 
-        <div className="  mt-[15%]  md:relative   md:grid grid-cols-3 ">
-          <div className=" md:w-[95%] md:ml-[54%]  col-span-2 ">
+        <div  className="  mt-[15%] pb-3  lg:relative   lg:grid grid-cols-3 ">
+          <div data-aos="zoom-in" className=" lg:w-[95%] lg:ml-[54%]  col-span-2 ">
             <img
-              className=" cursor-pointer md:blur-[0.9px] md:hover:translate-x-10  hover:blur-none rounded-md duration-500    "
+              className=" cursor-pointer lg:blur-[0.9px] lg:hover:translate-x-10  hover:blur-none rounded-md duration-500    "
               src={work2}
               alt="work2"
             />
           </div>
-          <div className=" md:absolute md:mr-[47%]   gap-7 flex flex-col">
-            <div className=" md:mt-0 mt-3 text-start">
-              {/* <p className="ff text-[13px] md:text-[16px] text-[#5ff2d0]">Latest Project</p> */}
-              <h1 className=" text-[#ccd6f6] text-[20px] md:text-[24px] font-bold">
+          <div data-aos="fade-up" className=" lg:absolute lg:mr-[47%]   gap-7 flex flex-col">
+            <div className="mt-3 lg:mt-0 text-start">
+              {/* <p className="ff text-[13px] lg:text-[16px] text-[#5ff2d0]">Latest Project</p> */}
+              <h1 className=" text-[#ccd6f6] text-[20px] md:text-[24px] lg:text-[24px] font-bold">
                 YouTube Clone
               </h1>
             </div>
 
-            <div className=" md:mt-0 mt-[-20px]  shadow-2xl shadow-[#191919] rounded-md bg-[#112240]">
-              <p className="md:pl-5 pl-0 pr-2 md:pr-12 py-2 md:py-4 md:text-[16px] text-[13px] text-[#8d99b7] text-start ">
+            <div className=" font lg:mt-0 mt-[-20px]  shadow-2xl shadow-[#191919] rounded-md bg-[#112240]">
+              <p className=" lg:pl-5 pl-2 pr-2 lg:pr-10 py-2 lg:py-4 lg:text-[14px] md:text-[14px] text-[12px] text-[#8d99b7] text-start ">
                 Building a YouTube clone
                 using React.js. I recreated the core functionalities of YouTube,
                 allowing users to browse videos, search for content, and watch
@@ -103,14 +103,14 @@ const Work = () => {
               </p>
             </div>
 
-            <div className=" md:text-[16px] text-[13px] md:mt-0 mt-[-20px] text-[#8d99b7] ff justify-start  flex flex-row gap-4">
+            <div className=" font lg:text-[14px] text-[12px] md:text-[14px] lg:mt-0 mt-[-20px] text-[#8d99b7]  justify-start  flex flex-row gap-4">
               <p>VScode</p>
               <p>React.js</p>
               <p>YouTube API</p>
               <p>Tailwind</p>
             </div>
 
-            <div className=" md:mt-0 mt-[-20px]  text-[#ccd6f6] text-[20px] md:text-[24px]  flex gap-7 justify-start">
+            <div className=" lg:mt-[-5px] md:text-[19px] mt-[-20px]  text-[#ccd6f6] text-[17px] lg:text-[20px]  flex gap-7 justify-start">
               <Link
                 target="_blank"
                 className="hover:text-[#5ff2d0]"
@@ -131,38 +131,38 @@ const Work = () => {
 
         {/* third work */}
 
-        <div className=" mt-[15%]  md:relative   md:grid grid-cols-3 ">
-          <div className="md:w-[95%]  col-span-2  ">
+        <div  className=" mt-[15%]  pb-3 lg:relative   lg:grid grid-cols-3 ">
+          <div data-aos="zoom-in"  className="lg:w-[95%]  col-span-2  ">
             <img
-              className=" cursor-pointer md:blur-[0.9px] md:hover:-translate-x-10  hover:blur-none rounded-md duration-500  "
+              className=" cursor-pointer lg:blur-[0.9px] lg:hover:-translate-x-10  hover:blur-none rounded-md duration-500  "
               src={work3}
               alt="work3"
             />
           </div>
-          <div className="md:absolute md:ml-[47%] gap-7 flex flex-col">
-            <div className="md:text-end md:mt-0 mt-3">
-              {/* <p className="ff text-[13px] md:text-[16px] text-[#5ff2d0]">Latest Project</p> */}
-              <h1 className=" text-[#ccd6f6] text-[20px] md:text-[24px] font-bold">
+          <div data-aos="fade-up" className="lg:absolute lg:ml-[47%] gap-7 flex flex-col">
+            <div className="mt-3 lg:text-end lg:mt-0">
+              {/* <p className="ff text-[13px] lg:text-[16px] text-[#5ff2d0]">Latest Project</p> */}
+              <h1 className=" text-[#ccd6f6] text-[20px] md:text-[24px] lg:text-[24px] font-bold">
                 FlavorVerse
               </h1>
             </div>
 
-            <div className="  md:mt-0 mt-[-20px]  shadow-2xl shadow-[#191919] rounded-md bg-[#112240]">
-              <p className="md:pr-5 pr-2 pl-0 md:pl-12 py-2 md:py-4 md:text-[16px] text-[13px] text-[#8d99b7] md:text-end ">
+            <div className="  lg:mt-0 mt-[-20px]  shadow-2xl shadow-[#191919] rounded-md bg-[#112240]">
+              <p className=" font lg:pr-5 pr-2 pl-2 lg:pl-12 py-2 lg:py-4 lg:text-[14px] md:text-[14px] text-[12px] text-[#8d99b7] lg:text-end ">
                 I embarked on a culinary journey in the digital space
                 by crafting a Recipe App using React.js. This project allows
                 users to discover, search, and step by step recipe discription .
               </p>
             </div>
 
-            <div className="md:text-[16px] text-[13px] md:mt-0 mt-[-20px] text-[#8d99b7] ff md:justify-end  flex flex-row gap-5">
+            <div className=" font lg:text-[14px] md:text-[14px] text-[12px] lg:mt-0 mt-[-20px] text-[#8d99b7]  lg:justify-end  flex flex-row gap-5">
               <p>VScode</p>
               <p>React.js</p>
               <p>Recipe API</p>
               <p>Tailwind</p>
             </div>
 
-            <div className=" md:mt-0 mt-[-20px] text-[#ccd6f6] text-[20px] md:text-[24px] flex gap-7 md:justify-end">
+            <div className=" lg:mt-[-5px] mt-[-20px] md:text-[19px] text-[#ccd6f6] text-[17px] lg:text-[20px] flex gap-7 lg:justify-end">
               <Link
                 className="hover:text-[#5ff2d0]"
                 to="https://github.com/Devangptl/Recipe-app"
@@ -180,29 +180,29 @@ const Work = () => {
         </div>
 
         {/* Fourth work */}
-        <div className="  mt-[15%]  md:relative   md:grid grid-cols-3 ">
-          <div className=" md:w-[95%] md:ml-[54%]  col-span-2 ">
+        <div  className="  mt-[15%]  mb-8  lg:relative   lg:grid grid-cols-3 ">
+          <div data-aos="zoom-in" className=" lg:w-[95%] lg:ml-[54%]  col-span-2 ">
             <img
-              className=" cursor-pointer md:blur-[0.9px] md:hover:translate-x-10  hover:blur-none rounded-md duration-500    "
+              className=" cursor-pointer lg:blur-[0.9px] lg:hover:translate-x-10  hover:blur-none rounded-md duration-500    "
               src={work4}
               alt="work2"
             />
           </div>
-          <div className=" md:absolute md:mr-[47%]   gap-7 flex flex-col">
-            <div className=" md:mt-0 mt-3 text-start">
-              <p className="ff text-[13px] md:text-[16px] text-[#5ff2d0]">Latest Project</p>
-              <h1 className=" text-[#ccd6f6] text-[20px] md:text-[24px] font-bold">
+          <div data-aos="fade-up" className=" lg:absolute lg:mr-[47%]   gap-7 flex flex-col">
+            <div className="mt-3 lg:mt-0 text-start">
+              <p className="ff text-[13px] lg:text-[16px]     text-[#5ff2d0]">Latest Project</p>
+              <h1 className=" text-[#ccd6f6] text-[20px] md:text-[24px] lg:text-[24px] font-bold">
                 Online Electronics Shopping
               </h1>
             </div>
 
-            <div className=" md:mt-0 mt-[-20px]  shadow-2xl shadow-[#191919] rounded-md bg-[#112240]">
-              <p className="md:pl-5 pl-0 pr-2 md:pr-12 py-2 md:py-4 md:text-[16px] text-[13px] text-[#8d99b7] text-start ">
+            <div className=" lg:mt-0 mt-[-20px]  shadow-2xl shadow-[#191919] rounded-md bg-[#112240]">
+              <p className=" font lg:pl-5 pl-2 pr-2 lg:pr-12 py-2 lg:py-4 md:text-[14px] lg:text-[14px] text-[12px] text-[#8d99b7] text-start ">
                 This eCommerce project leverages a modern tech stack comprising React, Tailwind CSS, Strapi, and Stripe to deliver a seamless and dynamic online shopping experience.
               </p>
             </div>
 
-            <div className=" md:text-[16px] text-[13px] md:mt-0 mt-[-20px] text-[#8d99b7] ff justify-start  flex flex-row gap-4">
+            <div className="font lg:text-[14px] text-[12px] lg:mt-0 mt-[-20px] md:text-[14px] text-[#8d99b7] ff justify-start  flex flex-row gap-4">
               
               <p>React.js</p>
               <p>Redux</p>
@@ -211,7 +211,7 @@ const Work = () => {
               <p>Tailwind</p>
             </div>
 
-            <div className=" md:mt-0 mt-[-20px]  text-[#ccd6f6] text-[20px] md:text-[24px]  flex gap-7 justify-start">
+            <div className=" lg:mt-[-5px] mt-[-20px] md:text-[19px]  text-[#ccd6f6] text-[17px] lg:text-[20px]  flex gap-7 justify-start">
               <Link
                 target="_blank"
                 className="hover:text-[#5ff2d0]"

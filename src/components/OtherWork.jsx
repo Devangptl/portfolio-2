@@ -12,13 +12,13 @@ import { LuExternalLink } from "react-icons/lu";
 const OtherWork = () => {
   return (
     <div>
-      <div className="bg-[#0a192f]  mt-[-10px]    md:pt-[8%] pt-[12%] h-full">
+      <div className="bg-[#0a192f]  mt-[-5px]    pt-[10%] h-full">
         <h1 className=" text-[20px] md:text-[25px] md:px-[15%] text-center text-[#ccd6f6] font-bold">
           Other Noteworthy Projects
         </h1>
 
-        <div className=" flex flex-col items-center md:px-[10%] gap-6  md:grid mt-[8%] grid-cols-3 ">
-          <div class=" md:hover:-translate-y-2 duration-300  md:mx-3 md:my-6  my-10 relative  flex w-80 flex-col rounded-xl bg-[#112240] bg-clip-border text-gray-700 shadow-md">
+        <div  className=" flex flex-col   items-center md:px-[10%]  md:gap-6 md:grid md:grid-cols-2  lg:grid mt-[8%] lg:grid-cols-3 ">
+          <div data-aos="fade-up" class=" md:hover:-translate-y-2 duration-300  md:mx-3 md:my-6  my-10 relative  flex w-80 flex-col rounded-xl bg-[#112240] bg-clip-border text-gray-700 shadow-md">
             <div class="relative  md:hover:-translate-y-2 duration-500 mx-5 md:mx-4 -mt-6  overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border  shadow-2xl ">
               <Link to={"https://github.com/Devangptl/node-Backend"}>
                 <img
@@ -29,7 +29,7 @@ const OtherWork = () => {
               </Link>
             </div>
             <div class="p-6">
-              <h5 class="md:mb-2 text-[#ccd6f6] block font-sans md:text-xl text-lg font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              <h5 class=" font md:mb-2 text-[#ccd6f6] block font-sans  font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 Node Backend - youtube
               </h5>
               <p class=" text-[#9ba6c5] block font-sans  md:text-xl text-sm font-light  antialiased">
@@ -40,7 +40,7 @@ const OtherWork = () => {
                 <p>MongoDB</p>
                 <p>Cloudinary</p>
                 <p>Postman</p>
-                <p>Data Modaling</p>
+                <p>Modaling</p>
               </div>
             </div>
             <div class=" text-[#a1acca] text-[15px] md:text-[20px]  flex justify-center gap-6 p-6 pt-0">
@@ -62,7 +62,7 @@ const OtherWork = () => {
             </div>
           </div>
 
-          <div class=" md:hover:-translate-y-2 duration-300  md:mx-3 md:my-6 my-10 relative  flex w-80 flex-col rounded-xl bg-[#112240] bg-clip-border text-gray-700 shadow-md">
+          <div data-aos="fade-up" class=" md:hover:-translate-y-2 duration-300  md:mx-3 md:my-6 my-10 relative  flex w-80 flex-col rounded-xl bg-[#112240] bg-clip-border text-gray-700 shadow-md">
             <div class="relative  md:hover:-translate-y-2 duration-500 mx-5 md:mx-4 -mt-6  overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border  shadow-2xl">
               <Link to={""}>
                 <img
@@ -73,7 +73,7 @@ const OtherWork = () => {
               </Link>
             </div>
             <div class="p-6">
-              <h5 class="md:mb-2 text-[#ccd6f6] block font-sans md:text-xl text-lg font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              <h5 class=" font md:mb-2 text-[#ccd6f6] block font-sans  font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 Data Structures & Algorithms
               </h5>
               <p class=" text-[#9ba6c5] block font-sans  md:text-xl text-sm font-light  antialiased">
@@ -105,7 +105,7 @@ const OtherWork = () => {
             </div>
           </div>
 
-          <div class=" md:hover:-translate-y-2 duration-300  md:mx-3 md:my-6 my-10 relative  flex w-80 flex-col rounded-xl bg-[#112240] bg-clip-border text-gray-700 shadow-md">
+          <div data-aos="fade-up" class=" md:hover:-translate-y-2 duration-300  md:mx-3 md:my-6 my-10 relative  flex w-80 flex-col rounded-xl bg-[#112240] bg-clip-border text-gray-700 shadow-md">
             <div class="relative  md:hover:-translate-y-2 duration-500 mx-5 md:mx-4 -mt-6  overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border  shadow-2xl  ">
               <Link to={""}>
                 <img
@@ -116,7 +116,7 @@ const OtherWork = () => {
               </Link>
             </div>
             <div class="p-6">
-              <h5 class="md:mb-2 text-[#ccd6f6] block font-sans md:text-xl text-lg font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              <h5 class="md:mb-2 font text-[#ccd6f6] block font-sans  font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 Text Editor
               </h5>
               <p class="text-[#9ba6c5] block font-sans  md:text-xl text-sm font-light  antialiased">
@@ -148,7 +148,7 @@ const OtherWork = () => {
             </div>
           </div>
 
-          <div class=" md:hover:-translate-y-2 duration-300  md:mx-3 md:my-6 my-10 relative  flex w-80 flex-col rounded-xl bg-[#112240] bg-clip-border text-gray-700 shadow-md">
+          <div data-aos="fade-up" class=" md:hover:-translate-y-2 duration-300  md:mx-3 md:my-6 my-10 relative  flex w-80 flex-col rounded-xl bg-[#112240] bg-clip-border text-gray-700 shadow-md">
             <div class="relative  md:hover:-translate-y-2 duration-500 mx-5 md:mx-4 -mt-6  overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border  shadow-2xl">
               <Link to={""}>
                 <img
@@ -159,7 +159,7 @@ const OtherWork = () => {
               </Link>
             </div>
             <div class="p-6">
-              <h5 class="md:mb-2 text-[#ccd6f6] block font-sans md:text-xl text-lg font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              <h5 class="md:mb-2 font text-[#ccd6f6] block font-sans  font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 Fitness App
               </h5>
               <p class=" text-[#9ba6c5] block font-sans  md:text-xl text-sm font-light  antialiased">
@@ -191,7 +191,7 @@ const OtherWork = () => {
             </div>
           </div>
 
-          <div class="  md:hover:-translate-y-2 duration-300  md:mx-3 md:my-6 my-10 relative  flex w-80 flex-col rounded-xl bg-[#112240] bg-clip-border text-gray-700 shadow-md">
+          <div data-aos="fade-up" class="  md:hover:-translate-y-2 duration-300  md:mx-3 md:my-6 my-10 relative  flex w-80 flex-col rounded-xl bg-[#112240] bg-clip-border text-gray-700 shadow-md">
             <div class="relative  md:hover:-translate-y-2 duration-500 mx-5 md:mx-4 -mt-6  overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border  shadow-2xl ">
               <Link to={""}>
                 <img
@@ -202,7 +202,7 @@ const OtherWork = () => {
               </Link>
             </div>
             <div class="p-6">
-              <h5 class="md:mb-2 text-[#ccd6f6] block font-sans md:text-xl text-lg font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              <h5 class="md:mb-2 font text-[#ccd6f6] block font-sans  font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 iNoteBook
               </h5>
               <p class=" text-[#9ba6c5] block font-sans  md:text-xl text-sm font-light  antialiased">
@@ -231,7 +231,7 @@ const OtherWork = () => {
             </div>
           </div>
 
-          <div class=" md:hover:-translate-y-2 duration-300  md:mx-3 md:my-6 my-10 relative  flex w-80 flex-col rounded-xl bg-[#112240] bg-clip-border text-gray-700 shadow-md">
+          <div data-aos="fade-up" class=" md:hover:-translate-y-2 duration-300  md:mx-3 md:my-6 my-10 relative  flex w-80 flex-col rounded-xl bg-[#112240] bg-clip-border text-gray-700 shadow-md">
             <div class="relative  md:hover:-translate-y-2 duration-500 mx-5 md:mx-4 -mt-6  overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border  shadow-2xl">
               <Link to={""}>
                 <img
@@ -242,7 +242,7 @@ const OtherWork = () => {
               </Link>
             </div>
             <div class="p-6">
-              <h5 class="md:mb-2 text-[#ccd6f6] block font-sans md:text-xl text-lg font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              <h5 class="md:mb-2 font text-[#ccd6f6] block font-sans  font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 News App
               </h5>
               <p class="text-[#9ba6c5] block font-sans  md:text-xl text-sm font-light  antialiased">

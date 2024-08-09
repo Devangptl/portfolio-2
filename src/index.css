@@ -263,3 +263,23 @@ code {
   stroke-dasharray: 20 300;
   stroke-dashoffset: -32.42;
 }
+
+
+
+.font{
+  font-family: myFont;
+}
+
+.logoFont{
+  font-family: logoFont;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(aqua.ttf);
+}
+
+@font-face {
+  font-family: logoFont;
+  src: url(Phenomena-Bold.otf);
+}
