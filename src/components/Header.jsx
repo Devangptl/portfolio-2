@@ -2,17 +2,18 @@ import React from 'react'
 import resume from "../utils/Resume.pdf";
 import { Link } from 'react-router-dom';
 
+
 const Header = () => {
   return (
-    <div   className='  md:px-[15%] px-7  py-[5%] bg-[#0a192f] ' >
+    <div className='  md:px-[15%] px-7  pt-[5%] bg-[#0a192f] ' >
       <div data-aos="fade-right" className='pt-20 '>
         <h1 className=' text-[#5ff2d0] ff text-[13px] md:text-[20px]' >Hi, my name is</h1>
 
         <h1 className=' mt-2 text-[#ccd6f6] text-[27px] md:text-[50px] font-black '>Devang Patel</h1>
 
-        <h1 className=' text-[#8892b0] md:text-[50px] text-[27px] font-black '>I build things for the web.</h1>
+        <h1 className=' text-[#8892b0]   md:text-[50px] text-[27px] font-black '>I build things for the web.</h1>
 
-        <p className=' md:py-3 font text-[12px] text-justify md:text-[15px] text-[#7a85a2]  md:w-[60%] ' >Aspiring for a challenging career in Software and <span className='text-[#5ff2d0]'>MERN</span> Development as to use my learned skill and experience for best results .</p>
+        <p className=' md:py-3  py-2 font text-[12px] text-justify md:text-[15px] text-[#7a85a2]  md:w-[60%] ' >Aspiring for a challenging career in Software and <span className='text-[#5ff2d0]'>MERN</span> Development as to use my learned skill and experience for best results .</p>
 
         <Link
           to={resume}
@@ -22,6 +23,7 @@ const Header = () => {
           <span className="">Resume</span>
         </Link>
       </div>
+     
     </div>
   )
 }

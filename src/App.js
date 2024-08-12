@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Social from "./components/Social";
 import Aos from "aos";
 import "aos/dist/aos.css"
+import { MarqueeItem } from "./components/MarqueeItem";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       
       <Social/>
       <Header/>
+      <MarqueeItem/>
       <About/>
       <Experience/>
       <Work/>
