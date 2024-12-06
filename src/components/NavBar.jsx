@@ -7,6 +7,7 @@ const NavBar = () => {
   const [open, setOpen] = useState(false);
 
   const handlemenu = () => {
+    console.log("working");
     setOpen(!open);
   };
 
@@ -21,8 +22,8 @@ const NavBar = () => {
             alt="logo"
           /> */}
           <div className='  font text-[#5ff2d0] duration-300 group-hover:text-[#abd373] text-[20px] underline decoration-[#abd373] group-hover:decoration-[#5ff2d0]  underline-offset-4'>
-                    Devan<span className=' text-[#abd373] duration-300 group-hover:text-[#5ff2d0]'>g</span>
-                </div>
+            Devan<span className=' text-[#abd373] duration-300 group-hover:text-[#5ff2d0]'>g</span>
+          </div>
         </a>
 
         <label className="fixed right-0 px-5  md:hidden hamburger">
@@ -40,48 +41,46 @@ const NavBar = () => {
           <div
             className={
               open
-                ? "fixed   bg-opacity-75 bg-[]  md:hidden right-0 h-screen top-[100%] w-full  order-r border-r-[#0a192f] ease-in-out duration-700"
-                : "ease-in-out w-[100%]   h-screen   border-r-[#0a192f]  duration-700 fixed top-[100%] bottom-0  right-[-100%]"
+                ? "fixed bg-[#0a192f] md:hidden right-0 h-screen top-[100%] w-full order-r border-r-[#0a192f] ease-in-out duration-700"
+                : "ease-in-out w-[100%] h-screen border-r-[#0a192f]  duration-700 fixed top-[100%] bottom-0  right-[-100%]"
             }
           >
             <div className="">
-              
-            
-            <div className=" font bg-opacity-75 h-screen border border-white m-[50px]    text-[20px]  bg-[#0a192f] flex flex-col justify-center items-center   gap-4  ">
-              <a
-                
-                href={"#about"}
-                className=" hover:text-[#5ff2d0] duration-200"
-              >
-                {" "}
-                <span className=" text-[#5ff2d0]">01. </span> About{" "}
-              </a>
-              <a
-                
-                href={"#experience"}
-                className="hover:text-[#5ff2d0] duration-200"
-              >
-                {" "}
-                <span className=" text-[#5ff2d0]">02. </span> Experience{" "}
-              </a>
-              <a
-                
-                href={"#work"}
-                className="hover:text-[#5ff2d0] duration-200"
-              >
-                {" "}
-                <span className=" text-[#5ff2d0]">03. </span> Work{" "}
-              </a>
-              <a
-                
-                href={"#contact"}
-                className="hover:text-[#5ff2d0] duration-200"
-              >
-                {" "}
-                <span className=" text-[#5ff2d0]">04. </span> Contact{" "}
-              </a>
-              
-            </div>
+              <div className=" font bg-opacity-75 h-screen  border-white m-[50px]  text-[20px]  flex flex-col  items-end   gap-4  ">
+                <a
+                  // onClick={handlemenu}
+                  href={"#about"}
+                  className=" hover:text-[#5ff2d0] duration-200"
+                >
+                  {" "}
+                  <span className=" text-[#5ff2d0]">01. </span> About{" "}
+                </a>
+                <a
+                  // onClick={handlemenu}
+                  href={"#experience"}
+                  className="hover:text-[#5ff2d0] duration-200"
+                >
+                  {" "}
+                  <span className=" text-[#5ff2d0]">02. </span> Experience{" "}
+                </a>
+                <a
+                  // onClick={handlemenu}
+                  href={"#work"}
+                  className="hover:text-[#5ff2d0] duration-200"
+                >
+                  {" "}
+                  <span className=" text-[#5ff2d0]">03. </span> Work{" "}
+                </a>
+                <a
+                  // onClick={handlemenu}
+                  href={"#contact"}
+                  className="hover:text-[#5ff2d0] duration-200"
+                >
+                  {" "}
+                  <span className=" text-[#5ff2d0]">04. </span> Contact{" "}
+                </a>
+
+              </div>
             </div>
           </div>
         }
