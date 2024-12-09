@@ -80,7 +80,6 @@ const Work = () => {
         "React.js",
         "Redux",
         "Strapi",
-        "Stripe",
         "Tailwind",
         "Recipe Api"
       ],
