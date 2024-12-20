@@ -11,7 +11,7 @@ import { SiMongodb } from "react-icons/si";
 
 export const MarqueeItem = () => {
   return (
-    <div className='md:px-[15%] px-7  mt-[-4px] py-[5%] bg-[#0a192f] '>
+    <div className='md:px-[15%] px-7 mt-[-4px] py-[7%] bg-[#0a192f] '>
          <Marquee  className=' text-[#7a85a2]  bg-[#0a192f]  '>
         <p className='flex items-center px-5  justify-center gap-2 font text-[20px] '><FaHtml5 /> <span className=' pt-1  text-[14px]'>HTML</span></p>
         <p className='flex items-center px-5  justify-center gap-2 font text-[20px]'><FaCss3Alt /> <span className=' pt-1 text-[14px]'>CSS</span></p>

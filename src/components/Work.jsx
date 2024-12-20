@@ -90,8 +90,6 @@ const Work = () => {
     },
   ]
 
-  console.log(workData[0].tags);
-  
 
   return (
     <div
